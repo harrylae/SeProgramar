@@ -9,7 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Instalación atada, compilada y minimizada</title>
+    <title>Cuentas Online</title>
 
   </head>
 
@@ -18,11 +18,30 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
 
-    <div class="container-fluid p-3 my-3 bg-primary text-white">
-      <h1>Prueba de Página</h1>
-      <p>Este es algún texto para mostrar.</p>
-    </div> 
+    <div class="content-fluid">
+      <form>
 
+        <div class="mb-3">
+          <label for="idE" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="idE" aria-describedby ="idEH">
+          <div id="idEH" class="form-text">Debe ser un correo válido.</div>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+
+      </form>
+    </div>
+    
   </body>
 
 </html>
